@@ -34,6 +34,26 @@ p1{
   font-style: bold;
 }
 
+#about_me{
+  height: 120px;
+  background-color: white;
+}
+
+#skills{
+  height: 120px;
+  background-color: green;
+}
+
+#lerning_history{
+  height: 120px;
+  background-color: blue;
+}
+
+#portfolio{
+  height: 120px;
+  background-color: yellow;
+}
+
 /*#left{
   background-color: limegreen;
   float: left;
