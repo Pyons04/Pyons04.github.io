@@ -24,52 +24,78 @@
       <div id="about_me">
         <h1>About Me</h1>
 
-            <li>
+            <div class="self_intro"><!-- self_introはperson_imgとperson_infoを小要素に持つ。この2つの感覚を調整するために新説 -->
               <div class="person_img" >
                 <img src="pyons.jpg" width="140" height="140" class="icon">
               </div>
               <div class="person_info">
                 <h2>末田　浩基</h2>
                 <p>青山学院大学経済学部経済学科3年（20卒）</p>
-              </div>
-            </li>
+
+                  <ul>
+
+                    <li>
+                      <a href="mailto:broad.basic15@gmail.com" target="_blank">
+                      <img src="gmail.png" width="30" height="20.4" alt="メール送信">
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="https://github.com/Pyons04" target="_blank">
+                      <img src="github.png" width="30" height="30" alt="github">
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="https://www.facebook.com/profile.php?id=100005558868402" target="_blank">
+                      <img src="facebook.png" width="30" height="30" alt="facebook">
+                      </a>
+                    </li>
+
+                  </ul>
+
+            </div>
+        </div>
+      <!-- ↑これはselfintro barsのdiv閉じ -->
       </div>
 
       <div id="skills">
         <h1>Skills</h1>
 
-        <p>プログラミング歴は約1年です。2年生の夏休みにrubyを習得し、ある程度自力で書けるようになりました。Pascalは留学先の大学で一学期間授業で用いました。またこのページの作成のためにJavaScriptの勉強を始めています。</p>
+        <p>プログラミング歴は約1年です。2年生の夏休みにRubyを習得し、ある程度自力で書けるようになりました。Pascalは留学先の大学で一学期間授業で用いました。Javaは青山学院大学の授業で基礎文法を習いました。</p>
 
 
         <div id="bars">
-          <div class="progress">
-            <span class="badge badge-danger">Ruby&nbsp;&nbsp; </span>
+          <button type="button" class="btn btn-danger">Ruby</button>
+          <button type="button" class="btn btn-warning">Pascal</button>
+          <button type="button" class="btn btn-info">Java</button> <br>
 
+
+
+          <div class="progress">
                <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
           </div><br>
 
 
           <div class="progress">
-            <span class="badge badge-warning">Pascal</span><br>
            <div class="progress-bar bg-warning" role="progressbar" style="width: 30%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
           </div><br>
 
           <div class="progress">
-            <span class="badge badge-primary">Java&nbsp;&nbsp;  </span>
-
            <div class="progress-bar bg-info" role="progressbar" style="width: 10%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
           </div><br>
 
         </div>   
       <!-- ↑これはid barsのdiv閉じ -->
-
+        <p>触ったことのある言語・フレームワーク :<button type="button" class="btn btn-secondary btn-sm">C言語</button>
+        <button type="button" class="btn btn-secondary btn-sm">Rails</button> <button type="button" class="btn btn-secondary btn-sm">sinatra</button> <button type="button" class="btn btn-secondary btn-sm">Swing(Java)</button> <button type="button" class="btn btn-secondary btn-sm">PostgreSQL</button> <button type="button" class="btn btn-secondary btn-sm">Heroku</button> <button type="button" class="btn btn-secondary btn-sm">HTML/CSS</button>  etc...</p>
 
       </div>
 
       <div id="lerning_history">
         <h1>Lerning history</h1>
 
-        <p>大学の専攻は経済学ですが、以下のようなプログラミングの習得の機会を得ることができました。</p>
+        <p>大学の専攻は経済学ですが、以下のようなプログラミングの習得の機会を得ることができました。3年次に10か月間豪州の大学に留学しておりComputer Scienceの科目を中心に履修しました。</p>
         <table class="brwsr1">
             <tbody>
               <tr>
@@ -114,9 +140,8 @@
 
       <div id ="portfolio">
         <h1>Portfolios</h1>
-      </div>
-    </div>
-
+     </div>
+</div>
 
     <div id="sidebar">
       <p1>sidebar<p1>

@@ -1,4 +1,5 @@
-/*base color
+/*
+base color
 
 1: #77AAAD
 2: #6E7783
@@ -48,13 +49,14 @@ main{
 #indent{
   width:10%;
   float: left;
-  height: 800px;
+  height: 1500px;
   background-color: #D8E6E7;
 }
 
 #content{
   width:80%;
   float: left;
+  background-color: #D8E6E7;
 }
 
 
@@ -64,6 +66,13 @@ main{
   overflow: hidden;
   margin-right:0;
   padding:0;
+  list-style-type: none;
+  width: 66%;
+  margin: 0 auto;
+}
+
+#about_me li {
+  display: inline-block;
 }
 
 #skills{
@@ -75,10 +84,10 @@ main{
 
 #lerning_history{
   background-color: #D8E6E7;
+  padding-right: 30px;
 }
 
 #portfolio{
-  height: 120px;
   background-color: #D8E6E7;
 }
 
@@ -92,8 +101,9 @@ main{
 footer{
   font-size: 20px;
   padding: 10px;
-  opacity: 0.3;
+  opacity: 0.6;
   clear: fixed;
+  background-color: #6E7783;
 }
 
 
@@ -101,15 +111,14 @@ footer{
 li{
    list-style-type: none;
 }
+
 .person_img {
   float: left;
-  width: 50px;
   padding:10px;
 }
 
 .person_info {
   float: right;
-  width: 440px;
 }
 
 .icon{
@@ -135,6 +144,11 @@ li{
 .bg-info{
   margin:0;
 }
+
+.btn{
+  margin-bottom: 10px;
+}
+
 
 
 table.brwsr1 {
@@ -206,4 +220,4 @@ table.brwsr1 td.r4 {
   background-color: lightgreen;
   float: left;
   width: 300px;
-}*/
+}
