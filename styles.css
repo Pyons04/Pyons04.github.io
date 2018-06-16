@@ -48,7 +48,7 @@ main{
 #indent{
   width:10%;
   float: left;
-  height: 480px;
+  height: 600px;
   background-color: #D8E6E7;
 }
 
@@ -63,11 +63,12 @@ main{
   background-color: #D8E6E7;
   overflow: hidden;
   margin-right:0;
+  padding:0;
 }
 
 #skills{
-  height: 120px;
   background-color: #D8E6E7;
+  padding-right:40px;
 }
 
 #lerning_history{
@@ -84,13 +85,14 @@ main{
   background-color: #6E7783;
   width: 20%;
   float:right;
-  height: 480px;
+  height: 600px;
 }
 
 footer{
   font-size: 20px;
   padding: 10px;
   opacity: 0.3;
+  clear: fixed;
 }
 
 
