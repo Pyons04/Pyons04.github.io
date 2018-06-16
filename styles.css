@@ -1,58 +1,87 @@
+/*base color
+
+1: #77AAAD
+2: #6E7783
+3: #D8E6E7
+4: #9DC3C1
+
+*/
+
+h1{
+  margin:0;
+  padding:20px;
+  font-size: 30px;
+  color: #6E7783;
+}
+
+body{
+  font-color: #333635;
+  font-size: 22px
+}
+
 .container{
   width: 500px;
   margin: 0 auto;
 }
 
 header{
-  background-color: tomato;
+  background-color: #77AAAD;
   margin: 0,0,0,0;
+  font-size:90px;
+  color: white;
 }
+
 
 main{
   overflow: hidden;
 }
 
+
+#indent{
+  width:10%;
+  float: left;
+  height: 480px;
+  background-color: #D8E6E7;
+}
+
 #content{
-  background-color: skyblue;
-  width :70%;
+  width:80%;
   float: left;
 }
 
-#sidebar{
-  background-color: red;
-  width: 30%;
-  float:right;
-}
 
-footer{
-  background-color: gray;
-  clear: both;
-}
-
-p1{
-  font-size: 30px;
-  font-style: bold;
-}
 
 #about_me{
   height: 120px;
-  background-color: white;
+  background-color: #D8E6E7;
 }
 
 #skills{
   height: 120px;
-  background-color: green;
+  background-color: #D8E6E7;
 }
 
 #lerning_history{
   height: 120px;
-  background-color: blue;
+  background-color: #D8E6E7;
 }
 
 #portfolio{
   height: 120px;
-  background-color: yellow;
+  background-color: #D8E6E7;
 }
+
+#sidebar{
+  background-color: #6E7783;
+  width: 20%;
+  float:right;
+  height: 480px;
+}
+
+footer{
+  background-color: #9DC3C1;
+}
+
 
 /*#left{
   background-color: limegreen;
