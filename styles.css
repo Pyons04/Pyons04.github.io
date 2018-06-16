@@ -69,7 +69,9 @@ main{
 #skills{
   background-color: #D8E6E7;
   padding-right:40px;
+  overflow: hidden;
 }
+
 
 #lerning_history{
   height: 120px;
@@ -118,6 +120,23 @@ li{
   border-style: solid;
   box-shadow: 0px 0px 15px gray;
 }
+
+.badge{
+  margin-right: 10px;
+}
+
+.bg-danger{
+  margin: 0px;
+}
+
+.bg-warning{
+  margin: 0;
+}
+
+.bg-info{
+  margin:0;
+}
+
 
 /*#left{
   background-color: limegreen;
