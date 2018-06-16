@@ -7,6 +7,10 @@
 
 */
 
+html{
+  background-color: #9DC3C1;
+}
+
 h1{
   margin:0;
   padding:20px;
@@ -17,6 +21,7 @@ h1{
 body{
   font-color: #333635;
   font-size: 22px
+  background-color: #9DC3C1;
 }
 
 .container{
@@ -29,6 +34,8 @@ header{
   margin: 0,0,0,0;
   font-size:90px;
   color: white;
+  padding: 10px;
+  padding-left: 15px;
 }
 
 
@@ -79,7 +86,9 @@ main{
 }
 
 footer{
-  background-color: #9DC3C1;
+  font-size: 20px;
+  padding: 10px;
+  opacity: 0.3;
 }
 
 
