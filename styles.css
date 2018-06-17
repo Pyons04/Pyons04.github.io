@@ -106,11 +106,14 @@ footer{
   background-color: #6E7783;
 }
 
-
+ul{
+  padding: 0;
+}
 
 li{
    list-style-type: none;
-}
+   margin-left: 20px;
+ }
 
 .person_img {
   float: left;
