@@ -42,16 +42,12 @@ header{
 
 
 main{
-  overflow: hidden;
-}
-
-
-#indent{
-  width:10%;
-  float: left;
-  height: 1500px;
+  overflow: auto;
   background-color: #D8E6E7;
+  padding-left: 10%;
+  display: flex;
 }
+
 
 #content{
   width:80%;
@@ -92,21 +88,21 @@ main{
 
 #portfolio{
   background-color: #D8E6E7;
+  padding-left: 3px;
 }
 
 #sidebar{
   background-color: #6E7783;
   width: 20%;
   float:right;
-  height: 600px;
 }
 
 footer{
   font-size: 20px;
   padding: 10px;
   opacity: 0.6;
-  clear: fixed;
   background-color: #6E7783;
+  clear:both;
 }
 
 ul{
@@ -215,6 +211,36 @@ table.brwsr1 td.r4 {
   border-left: #fff 1px solid;
   background: #a0c2d3;
 }
+
+#portfolio1{
+  border:3px;
+  border-style:solid; 
+  border-color:white;
+  margin:10px;
+}
+
+#portfolio2{
+  border:3px;
+  border-style:solid; 
+  border-color:white;
+  margin:10px;
+}
+
+#portfolio3{
+  border:3px;
+  border-style:solid; 
+  border-color:white;
+  margin:10px;
+}
+
+#portfolio4{
+  border:3px;
+  border-style:solid; 
+  border-color:white;
+  margin:10px;
+}
+
+
 
 /*#left{
   background-color: limegreen;
