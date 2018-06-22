@@ -18,3 +18,5 @@ function arrayTimer() {
     setTimeout("arrayTimer()",300);
   }
 }
+
+console.log(document.getElementById('ruby').style)

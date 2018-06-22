@@ -69,6 +69,7 @@ main{
   list-style-type: none;
   width: 66%;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 #about_me li {
@@ -79,12 +80,14 @@ main{
   background-color: #D8E6E7;
   padding-right:40px;
   overflow: hidden;
+  margin-bottom: 30px;
 }
 
 
 #lerning_history{
   background-color: #D8E6E7;
   padding-right: 30px;
+  margin-bottom: 30px;
 }
 
 #portfolio{
@@ -108,6 +111,7 @@ footer{
 
 ul{
   padding: 0;
+  margin:0;
 }
 
 li{
