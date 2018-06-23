@@ -34,10 +34,11 @@ body{
 header{
   background-color: #77AAAD;
   margin: 0,0,0,0;
-  font-size:90px;
+  font-size:80px;
   color: white;
   padding: 10px;
   padding-left: 15px;
+  height: 140px;
 }
 
 
@@ -62,9 +63,8 @@ main{
   overflow: hidden;
   margin-right:0;
   padding:0;
+  margin-right:20%;
   list-style-type: none;
-  width: 66%;
-  margin: 0 auto;
   margin-bottom: 30px;
 }
 
@@ -136,17 +136,6 @@ li{
   margin-right: 10px;
 }
 
-.bg-danger{
-  margin: 0px;
-}
-
-.bg-warning{
-  margin: 0;
-}
-
-.bg-info{
-  margin:0;
-}
 
 .btn{
   margin-bottom: 10px;
@@ -217,6 +206,19 @@ table.brwsr1 td.r4 {
   border-style:solid; 
   border-color:white;
   margin:10px;
+  overflow: hidden;
+}
+
+#portfolio1_active{
+ display: none;
+}
+
+#portfolio1_img{
+  float: left;
+}
+
+#portfolio1_description{
+  float: right;
 }
 
 #portfolio2{
@@ -224,6 +226,7 @@ table.brwsr1 td.r4 {
   border-style:solid; 
   border-color:white;
   margin:10px;
+  overflow: hidden;
 }
 
 #portfolio3{

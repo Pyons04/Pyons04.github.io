@@ -20,22 +20,25 @@ function arrayTimer() {
 }
 //ruby Hiroki_Sueda.rbのアニメーション終
 
-//ruby Hiroki_Sueda.rbのpull downのdescription始
+
+//portfoliosのpull downのdescription始
 function pulldown(){
           console.log('clicked!');
-          document.getElementById('portfolio1').textContent = 'Introsuction to Programmingの授業の自由制作課題として作成したペイントソフト　Pascalで記述されています。';
+          var save   = document.getElementById('portfolio1').innerHTML;
+          document.getElementById('portfolio1').innerHTML = document.getElementById('portfolio1_active').innerHTML;
       }
 
 var action = document.getElementById('readmore');
-//ruby Hiroki_Sueda.rbのpull downのdescription終
 
 action.addEventListener('click', pulldown, false);
+//portfoliosのpull downのdescription終
 
+//言語のスキルレベルがアニメーションで動く仕組み始
 function filling(){
           console.log('ruby clicked!');
-
       }
 
 var action = document.getElementById('ruby');
 
 action.addEventListener('click', filling, false);
+//言語のスキルレベルがアニメーションで動く仕組み終
