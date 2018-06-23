@@ -203,10 +203,11 @@ table.brwsr1 td.r4 {
 
 #portfolio1{
   border:3px;
-  border-style:solid; 
+  border-style:solid;
   border-color:white;
   margin:10px;
-  overflow: hidden;
+  overflow: auto;
+  display: flex;
 }
 
 #portfolio1_active{
@@ -215,18 +216,21 @@ table.brwsr1 td.r4 {
 
 #portfolio1_img{
   float: left;
+  margin: 10px;
 }
 
 #portfolio1_description{
   float: right;
+  margin: 10px;
 }
+
 
 #portfolio2{
   border:3px;
-  border-style:solid; 
+  border-style:solid;
   border-color:white;
   margin:10px;
-  overflow: hidden;
+  overflow: auto;
 }
 
 #portfolio3{
@@ -234,13 +238,46 @@ table.brwsr1 td.r4 {
   border-style:solid; 
   border-color:white;
   margin:10px;
+  overflow: auto;
+  display: flex;
 }
+
+#portfolio3_description{
+  float: left;
+  margin: 10px;
+}
+
+#portfolio3_active{
+ display: none;
+}
+
+#portfolio3_img{
+  float: right;
+  margin: 10px;
+}
+
 
 #portfolio4{
   border:3px;
   border-style:solid; 
   border-color:white;
   margin:10px;
+  overflow: hidden;
+  display: flex;
+}
+
+#portfolio4_description{
+  float: left;
+  margin: 10px;
+}
+
+#portfolio4_active{
+ display: none;
+}
+
+#portfolio4_img{
+  float: right;
+  margin: 10px;
 }
 
 
