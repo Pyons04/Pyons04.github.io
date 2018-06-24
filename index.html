@@ -137,7 +137,35 @@
 
 
       <div id ="portfolio">
-      <h1>Portfolios</h1>
+      <h1>Portfolio</h1>
+      <p>授業での制作物や、趣味で書いたプログラムたちです。新しい順にならんでいます。</p>
+
+      <div class="menu">
+       <label for="Panel3">Intro to Programmingの授業の自由制作課題として作成したペイントソフト</label>
+        <input type="checkbox" id="Panel3" class="on-off" />
+         <div id="description">
+           <img src="portfolio1.png"  height = "300" id="portfolio3_img">
+
+
+           <div id="portfolio3_description">
+             <p>Swinburne University of Technologyで履修したBchaor of Computer Scienceの初級科目Introduction to Programmingで受講した科目です。この授業では主にPascalを用いて授業を行っており、大学が制作したオリジナルのPascalで記述できる『SwinGame』という2Dゲーム用ライブラリも用意されていました。この授業では100点中70点以上の成績の取得を目指す生徒に、自由制作課題の提出が求められており、自分はこのライブラリを用いて簡単なペイントソフトを作成しました。</p>
+           </div>
+        </div>
+      </div>
+
+      
+      <div class="menu">
+       <label for="Panel4">Chrome Driverを使った講義用資料の自動ダウンロードプログラム</label>
+        <input type="checkbox" id="Panel4" class="on-off" />
+         <div id="description">
+           <img src="portfolio5.jpg"  height = "300" id="portfolio4_img">
+
+           <div id="portfolio4_description">
+             <p>d大学の講義用資料をダウンロードするためのサイトCourse Powerから自動でファイルをダウンロードするためのスクリプトを、Chrome Driverに実行させるためのプログラムです。</p>
+           </div>
+        </div>
+      </div>
+
 
       <div class="menu">
        <label for="Panel1">LINE APIとHerokuのデータベースを組み合わせて運用する自作リマインダー</label>
@@ -152,6 +180,18 @@
         </div>
       </div>
 
+      <div class="menu">
+       <label for="Panel2">スクレイピング用ライブラリとtwiiter apiを組み合わせてHerokuで運用するBOT</label>
+        <input type="checkbox" id="Panel2" class="on-off" />
+         <div id="description2">
+           <img src="portfolio4.JPG"  height = "300" id="portfolio2_img">
+
+           <div id="portfolio2_description">
+             <p>決まった時間に学校のポータルサイトにログインし、明日の時間割と休講情報・教室変更情報などを取得して専用のTwitterアカウントに投稿します。</p>
+           </div>
+        </div>
+      </div>
+
 
     </div>
     <!-- ↑これはportfolioのdiv閉じ -->
@@ -161,6 +201,13 @@
 <!-- ↑これはmainのdiv閉じここからはsidebar -->
 
     <div id="sidebar">
+      <p>Index</p>
+      <ul>
+        <li id="index">About Me</li>
+        <li id="index">Skills</li>
+        <li id="index">Lerning History</li>
+        <li id="index">Portfolio</li>
+      </ul>
     </div>
 
   </main>
