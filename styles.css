@@ -201,13 +201,16 @@ table.brwsr1 td.r4 {
   background: #a0c2d3;
 }
 
+/*1つ目のポートフォリオ*/
 label {
     background: #9DC3C1;
     color: #fff;
     padding: 10px;
     display: block;
     margin: 10px 10px 0px 10px;
-}
+    font-size: 15px;
+    font-style: bold;
+  }
 
 input[type="checkbox"].on-off{
     display: none;
@@ -241,97 +244,7 @@ input[type="checkbox"].on-off:checked + #description{
     background: #9DC3C1;
 }
 
-
-#portfolio1{
-  border:3px;
-  border-style:solid;
-  border-color:white;
-  margin:10px;
-  overflow: auto;
-  display: flex;
-}
-
-#portfolio1_active{
- display: none;
-}
-
 #portfolio1_img{
-  float: left;
-  margin: 10px;
+    margin :10px;
 }
-
-#portfolio1_description{
-  float: right;
-  margin: 10px;
-}
-
-
-#portfolio2{
-  border:3px;
-  border-style:solid;
-  border-color:white;
-  margin:10px;
-  overflow: auto;
-}
-
-#portfolio3{
-  border:3px;
-  border-style:solid; 
-  border-color:white;
-  margin:10px;
-  overflow: auto;
-  display: flex;
-}
-
-#portfolio3_description{
-  float: left;
-  margin: 10px;
-}
-
-#portfolio3_active{
- display: none;
-}
-
-#portfolio3_img{
-  float: right;
-  margin: 10px;
-}
-
-
-#portfolio4{
-  border:3px;
-  border-style:solid; 
-  border-color:white;
-  margin:10px;
-  overflow: hidden;
-  display: flex;
-}
-
-#portfolio4_description{
-  float: left;
-  margin: 10px;
-}
-
-#portfolio4_active{
- display: none;
-}
-
-#portfolio4_img{
-  float: right;
-  margin: 10px;
-}
-
-
-
-/*#left{
-  background-color: limegreen;
-  float: left;
-  width: 180px;
-  margin-right: 20px;
-}
-
-#right{
-  background-color: lightgreen;
-  float: left;
-  width: 300px;
-}
+/*1つ目のポートフォリオ*/
