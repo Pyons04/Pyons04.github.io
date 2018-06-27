@@ -1,11 +1,9 @@
 /*
 base color
-
 1: #77AAAD
 2: #6E7783
 3: #D8E6E7
 4: #9DC3C1
-
 */
 
 html{
@@ -45,15 +43,16 @@ header{
 main{
   overflow: auto;
   background-color: #D8E6E7;
-  padding-left: 10%;
+  padding-left: 17%;
   display: flex;
 }
 
 
 #content{
-  width:80%;
+  width:85%;
   float: left;
   background-color: #D8E6E7;
+  padding-right:17%;
 }
 
 
@@ -66,7 +65,8 @@ main{
   width:70%;
   margin:auto;
   list-style-type: none;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
+  margin-top: 40px;
 }
 
 #about_me li {
@@ -77,14 +77,15 @@ main{
   background-color: #D8E6E7;
   padding-right:40px;
   overflow: hidden;
-  margin-bottom: 30px;
+  margin-bottom: 90px;
+  margin-top: 40px;
 }
 
 
 #lerning_history{
   background-color: #D8E6E7;
   padding-right: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 90px;
 }
 
 #portfolio{
@@ -94,7 +95,7 @@ main{
 
 #sidebar{
   background-color: #6E7783;
-  width: 20%;
+  width: 15%;
   float:right;
 }
 
@@ -423,7 +424,7 @@ input[type="checkbox"].on-off:checked + #description4{
 /*Side Barの設定*/
 #index {
    color:white;
-   font-size:20px;
+   font-size:17px;
    margin:20px;
 }
 
