@@ -29,6 +29,10 @@ body{
   margin: 0 auto;
 }
 
+.form-control{
+  width:30%;
+}
+
 header{
   background-color: #77AAAD;
   margin: 0,0,0,0;
