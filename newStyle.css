@@ -32,3 +32,28 @@ body{
     background-color: #9DC3C1;
   }
 
+  .self_intro{
+    overflow: hidden;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .person_img {
+    float: left;
+    padding:10px;
+  }
+  
+  .person_info {
+    float: right;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  
+  .icon{
+    border-radius: 50%; 
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    box-shadow: 0px 0px 15px gray;
+  }
